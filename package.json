@@ -1,0 +1,26 @@
+{
+  "name": "gedcom.js",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdeveltere/gedcom.git"
+  },
+  "keywords": [
+    "gedcom"
+  ],
+  "author": "Pieter Develtere",
+  "license": "ISC",
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12"
+  }
+}
